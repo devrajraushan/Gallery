@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#tabs,#content{
+	width: 450px;
+	padding: 10px;
+	border: 2px solid #f1f1f1;
+	text-align: center;
+	margin: 10px auto;
+}
+#tabs button{
+	width: 110px;
+	padding: 10px;
+	border: none;
+	background: black;
+	color: white;
+	margin: 5px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+#content>*{
+	display: none;
+}
+ #tabs button.active{
+	background: orange;
+	color: white;
+}
+#event img{
+	width:150px;	
+	margin: 10px;
+	}
+	
+#food img{
+	width: 150px;
+	
+	margin: 10px;
+
+}
+#game img{
+	width:150px;
+	
+	margin: 10px;
+
+}
